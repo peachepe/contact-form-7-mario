@@ -1,3 +1,45 @@
+=== Why is this so cool? ===
+
+This modified version extends the multiple recipient select that comes with Contact Form 7:
+
+<p>Department<br/>
+[select recipient "General Contact|test1@test.com" "Programs/Services Information|test2@test.com"  "Support|test3@test.com"]</p>
+
+And allows you to:
+
+- Retrieve the label (i.e: General Contact) of the recipient the user selected with a shortage:
+
+[recipient-label]
+
+- If you need to send the visitor a custom response depending on the recipient they selected, you can do it with:
+
+[response-test1@test.com]
+
+This is response 1.
+
+[/response-test1@test.com]
+
+[response-test2@test.com]
+
+This is response 2
+
+meeeeeeeeeeeeeeeeh
+
+[/response-test2@test.com]
+
+[response-test3@test.com]
+
+This is response 3.
+
+[/response-test3@test.com]
+
+
+Maybe not the best way to do it, but it works.
+
+You can contact me at mariodel@gmail.com
+
+
+
 === Contact Form 7 ===
 Contributors: takayukister
 Donate link: http://contactform7.com/donate/
